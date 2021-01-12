@@ -88,12 +88,11 @@ public class MyHelloClassLoad extends ClassLoader{
         String filePath = "";
         File file = new File(classPath);
         boolean pass = true;
-        int index = 0;
         while (pass) {
             File[] files = file.listFiles();
-            for (int i = 0; i < files.length; i++) {
-                if (files[i].isDirectory()) {
-                    file = files[i];
+            for (File file1 : files) {
+                if (file1.isDirectory()) {
+                    file = file1;
                 } else {
                     if (file1.getName().equals(fileName + filesux)) {
                         filePath = file1.getAbsolutePath();
