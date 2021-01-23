@@ -2,15 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10718a0d-c49c-4422-a487-493484b7d9db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week_02/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_01/src/main/java/MyHelloClassLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week_01/src/main/java/MyHelloClassLoad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_61.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_4_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_02/src/main/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_02/src/main/java/HttpServer03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_02/src/main/java/OkHttpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_02/src/main/java/gc/GCLogAnalysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_02/src/main/java/netty/HttpHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_02/src/main/java/netty/HttpInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_02/src/main/java/netty/NettyHttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_02/src/main/java/netty/util/HttpClientHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_01/Week_01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Week_01/Week_01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_02/Week_02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Week_02/Week_02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week_02/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_02/src/main/java/XSSDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week_02/src/main/java/XSSDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,20 +57,28 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week_01/image" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week_02/src/main/java/gc" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\git-works\JAVA-01\Week_01\image" />
-      <recent name="D:\git-works\JAVA-01\Week_01\target\classes\main\java" />
-      <recent name="D:\git-works\JAVA-01\Week_01\src\main\java" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\git-works\JAVA-01\Week_02\src\main\java" />
       <recent name="D:\git-works\JAVA-01\Week_01" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="netty" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git-works\java_进阶\JAVA-01\Week_02\src\main\java\gc" />
+      <recent name="D:\git-works\java_进阶\JAVA-01\Week_02\src\main" />
+      <recent name="D:\git-works\java_进阶\JAVA-01\Week_02\src\main\java" />
+      <recent name="D:\git-works\JAVA-01\Week_01\image" />
+      <recent name="D:\git-works\JAVA-01\Week_01\target\classes\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -50,10 +93,62 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="MyHelloClassLoad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.MyHelloClassLoad" />
-      <module name="Week_01" />
+  <component name="RunManager" selected="Application.NettyHttpServer">
+    <configuration name="HttpClientHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.util.HttpClientHelper" />
+      <module name="Week_02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="netty.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpServer03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HttpServer03" />
+      <module name="Week_02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyHttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.NettyHttpServer" />
+      <module name="Week_02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OkHttpUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.OkHttpUtil" />
+      <module name="Week_02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XSSDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.XSSDemo" />
+      <module name="Week_02" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.java.*" />
@@ -66,7 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyHelloClassLoad" />
+        <item itemvalue="Application.NettyHttpServer" />
+        <item itemvalue="Application.HttpServer03" />
+        <item itemvalue="Application.HttpClientHelper" />
+        <item itemvalue="Application.OkHttpUtil" />
+        <item itemvalue="Application.XSSDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -81,7 +180,9 @@
       <option name="presentableId" value="Default" />
       <updated>1610376514138</updated>
       <workItem from="1610376515227" duration="4218000" />
-      <workItem from="1610454397192" duration="2318000" />
+      <workItem from="1610454397192" duration="3194000" />
+      <workItem from="1611148857272" duration="3696000" />
+      <workItem from="1611233420030" duration="13975000" />
     </task>
     <servers />
   </component>
@@ -93,7 +194,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -106,6 +209,31 @@
           <url>file://$PROJECT_DIR$/Week_01/src/main/java/MyHelloClassLoad.java</url>
           <line>50</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Week_02/src/main/java/netty/HttpHandler.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Week_02/src/main/java/netty/HttpHandler.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Week_02/src/main/java/netty/HttpHandler.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Week_02/src/main/java/netty/util/HttpClientHelper.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Week_02/src/main/java/netty/util/HttpClientHelper.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

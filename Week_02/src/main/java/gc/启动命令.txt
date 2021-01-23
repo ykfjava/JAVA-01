@@ -1,0 +1,112 @@
+Microsoft Windows [版本 10.0.18363.1316]
+(c) 2019 Microsoft Corporation。保留所有权利。
+
+D:\开发文档\归档\weel02\01>    java -Xloggc:gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:19575
+
+D:\开发文档\归档\weel02\01>    java -Xloggc:gc.demo-128M.log  -Xmx128m -XX:+PrintGCDetails  -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+        at java.util.Arrays.copyOf(Arrays.java:3332)
+        at java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:124)
+        at java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:674)
+        at java.lang.StringBuilder.append(StringBuilder.java:208)
+        at GCLogAnalysis.generateGarbage(GCLogAnalysis.java:56)
+        at GCLogAnalysis.main(GCLogAnalysis.java:25)
+
+D:\开发文档\归档\weel02\01>    java -XX:+UseSerialGC -Xms512m -Xmx512m -Xloggc:gc.SerialGCd_Demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps  GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:11993
+
+D:\开发文档\归档\weel02\01>    java -Xloggc:gc.demo.log -Xms512m -Xmx512m  -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:9932
+
+D:\开发文档\归档\weel02\01>    java -Xloggc:gc.demo512M.log -Xms512m -Xmx512m  -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:9982
+
+D:\开发文档\归档\weel02\01>    java -Xloggc:gc.demo_DEFULT.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:20921
+
+D:\开发文档\归档\weel02\01>    java -XX:+UseSerialGC -Xms512m -Xmx512m -Xloggc:gc.SerialGC_Demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps  GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:12243
+
+D:\开发文档\归档\weel02\01>    java -XX:+UseParallelGC -Xms512m -Xmx512m -Xloggc:gc.ParallelGC_demo_512.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:10176
+
+D:\开发文档\归档\weel02\01>    java -Xloggc:gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:19402
+
+D:\开发文档\归档\weel02\01> java -XX:+UseConcMarkSweepGC -Xms512m -Xmx512m -Xloggc:gc.ConcMarkSweepGC_demo_512m.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:12227
+
+D:\开发文档\归档\weel02\01>    java -XX:+UseParallelGC -Xms1024m -Xmx1024m -Xloggc:gc.ParallelGC_demo_512.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:18046
+
+D:\开发文档\归档\weel02\01>    java -XX:+UseParallelGC -Xms512m -Xmx512m -Xloggc:gc.ParallelGC_demo_512.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:10399
+
+D:\开发文档\归档\weel02\01>    java -XX:+UseParallelGC -Xms1024m -Xmx1024m -Xloggc:gc.ParallelGC_demo_1024.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:18718
+
+D:\开发文档\归档\weel02\01> java -XX:+UseConcMarkSweepGC -Xms1024m -Xmx1024m -Xloggc:gc.ConcMarkSweepGC_demo_1024m.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:17962
+
+D:\开发文档\归档\weel02\01> java -XX:+UseConcMarkSweepGC -XX:-UseAdaptiveSizePolicy -Xms1024m -Xmx1024m -Xloggc:gc.ConcMarkSweepGC_demo_1024m_noAdap.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:17560
+
+D:\开发文档\归档\weel02\01>    java -XX:+UseParallelGC -XX:-UseAdaptiveSizePolicy  -XX:SurvivorRatio=8  -Xms1024m -Xmx1024m -Xloggc:gc.ParallelGC_demo_1024_noAdap_8SurRatio.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:19852
+
+D:\开发文档\归档\weel02\01>    java -XX:+UseParallelGC -Xms1024m -Xmx1024m -Xloggc:gc.ParallelGC_demo_1024.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:18428
+
+D:\开发文档\归档\weel02\01>    java -XX:+UseParallelGC -Xms1024m -Xmx1024m -Xloggc:gc.ParallelGC_demo_1024.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:18723
+
+D:\开发文档\归档\weel02\01>    java -XX:+UseParallelGC -XX:-UseAdaptiveSizePolicy  -XX:SurvivorRatio=8  -Xms1024m -Xmx1024m -Xloggc:gc.ParallelGC_demo_1024_noAdap_8SurRatio.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:21167
+
+D:\开发文档\归档\weel02\01>    java -XX:+UseParallelGC -XX:-UseAdaptiveSizePolicy  -XX:SurvivorRatio=8  -Xms1024m -Xmx1024m -Xloggc:gc.ParallelGC_demo_1024_noAdap_8SurRatio.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:20142
+
+D:\开发文档\归档\weel02\01>    java -Xloggc:gc.demo.log -XX:+PrintGCDetails -XX:-UseAdaptiveSizePolicy -XX:SurvivorRatio=8 -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:4323
+
+D:\开发文档\归档\weel02\01>    java -Xloggc:gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:19642
+
+D:\开发文档\归档\weel02\01>    java -Xloggc:gc.dafult_demo_8SurRatio.log -XX:+PrintGCDetails -XX:-UseAdaptiveSizePolicy -XX:SurvivorRatio=8 -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:4197
+
+D:\开发文档\归档\weel02\01>    java -Xloggc:gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:19748
+
+D:\开发文档\归档\weel02\01> java -XX:+UseConcMarkSweepGC -XX:-UseAdaptiveSizePolicy -XX:SurvivorRatio=8 -Xms1024m -Xmx1024m -Xloggc:gc.ConcMarkSweepGC_demo_1024m_noAdap_8SurRation.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:16938
+
+D:\开发文档\归档\weel02\01> java -XX:+UseConcMarkSweepGC -XX:-UseAdaptiveSizePolicy -Xms1024m -Xmx1024m -Xloggc:gc.ConcMarkSweepGC_demo_1024m_noAdap.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:16914
