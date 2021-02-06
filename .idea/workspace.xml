@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10718a0d-c49c-4422-a487-493484b7d9db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/Week_04.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/src/main/java/com/ykfjava/week04/Thead01_Join.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/src/main/java/com/ykfjava/week04/Thead02_Sleep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/src/main/java/com/ykfjava/week04/Thead03_Callable_FutureTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/src/main/java/com/ykfjava/week04/Thead03_Callable_pool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/src/main/java/com/ykfjava/week04/model/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_01/Week_01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Week_01/Week_01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_04/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_04/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="10718a0d-c49c-4422-a487-493484b7d9db" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,17 +126,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Thead02_Sleep" />
@@ -179,7 +151,7 @@
       <workItem from="1610454397192" duration="3194000" />
       <workItem from="1611148857272" duration="3696000" />
       <workItem from="1611233420030" duration="13975000" />
-      <workItem from="1612514788410" duration="5593000" />
+      <workItem from="1612514788410" duration="6464000" />
     </task>
     <servers />
   </component>
