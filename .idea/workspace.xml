@@ -2,37 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10718a0d-c49c-4422-a487-493484b7d9db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_61.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_4_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_45_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/src/main/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/src/main/java/HttpServer03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/src/main/java/OkHttpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/src/main/java/gc/GCLogAnalysis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/src/main/java/netty/HttpHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/src/main/java/netty/HttpInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/src/main/java/netty/NettyHttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/src/main/java/netty/util/HttpClientHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_03/Week_03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_03/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_03/src/main/java/ykf/BackendServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_03/src/main/java/ykf/filter/ProxyBizFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_03/src/main/java/ykf/homework03/filter/HeaderHttpRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_03/src/main/java/ykf/homework03/filter/HeaderHttpResponseFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_03/src/main/java/ykf/homework03/filter/HttpRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_03/src/main/java/ykf/homework03/filter/HttpResponseFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_03/src/main/java/ykf/homework03/httpclient4/HttpOutboundHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_03/src/main/java/ykf/homework03/httpclient4/NamedThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_03/src/main/java/ykf/homework03/router/HttpEndpointRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_03/src/main/java/ykf/homework03/router/RandomHttpEndpointRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_03/src/main/java/ykf/inbound/HttpInboundHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_03/src/main/java/ykf/inbound/HttpInboundInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_03/src/main/java/ykf/inbound/HttpInboundServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_03/src/main/java/ykf/util/HttpClientHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JAVA-01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JAVA-01.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_01/Week_01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Week_01/Week_01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_02/Week_02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Week_02/Week_02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week_02/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_02/src/main/java/XSSDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week_02/src/main/java/XSSDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_01/target/classes/main/java/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_01/target/classes/main/java/Hello.xlass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_01/target/classes/main/java/MyHelloClassLoad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_02/target/classes/main/java/XSSDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Week_02/target/classes/main/java/XSSDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,28 +52,32 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week_02/src/main/java/gc" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JAVA-000" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\git-works\JAVA-01\Week_02\src\main\java" />
-      <recent name="D:\git-works\JAVA-01\Week_01" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git-works\java_进阶\JAVA-01\Week_03\src\main\java\ykf\homework03\filter" />
+      <recent name="D:\git-works\java_进阶\JAVA-01\Week_03\src\main\java\ykf" />
+      <recent name="D:\git-works\java_进阶\JAVA-01\Week_03\src\main\java\ykf\filter" />
+      <recent name="D:\git-works\java_进阶\JAVA-01\Week_03\src\main\java" />
+      <recent name="D:\git-works\java_进阶\JAVA-01\Week_02\src\main\java\gc" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ykf.util" />
+      <recent name="ykf.homework03.router" />
+      <recent name="ykf.homework03" />
       <recent name="netty" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\git-works\java_进阶\JAVA-01\Week_02\src\main\java\gc" />
-      <recent name="D:\git-works\java_进阶\JAVA-01\Week_02\src\main" />
-      <recent name="D:\git-works\java_进阶\JAVA-01\Week_02\src\main\java" />
-      <recent name="D:\git-works\JAVA-01\Week_01\image" />
-      <recent name="D:\git-works\JAVA-01\Week_01\target\classes\main\java" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git-works\JAVA-01\Week_02\src\main\java" />
+      <recent name="D:\git-works\JAVA-01\Week_01" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -93,7 +92,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NettyHttpServer">
+  <component name="RunManager" selected="Application.HttpServer03">
+    <configuration name="BackendServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ykf.BackendServer" />
+      <module name="Week_03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ykf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HttpClientHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="netty.util.HttpClientHelper" />
       <module name="Week_02" />
@@ -146,26 +158,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XSSDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.XSSDemo" />
-      <module name="Week_02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NettyHttpServer" />
         <item itemvalue="Application.HttpServer03" />
+        <item itemvalue="Application.BackendServer" />
+        <item itemvalue="Application.NettyHttpServer" />
         <item itemvalue="Application.HttpClientHelper" />
         <item itemvalue="Application.OkHttpUtil" />
-        <item itemvalue="Application.XSSDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +182,8 @@
       <workItem from="1610454397192" duration="3194000" />
       <workItem from="1611148857272" duration="3696000" />
       <workItem from="1611233420030" duration="13975000" />
+      <workItem from="1611494015795" duration="786000" />
+      <workItem from="1612070109923" duration="13789000" />
     </task>
     <servers />
   </component>
@@ -234,6 +235,16 @@
           <url>file://$PROJECT_DIR$/Week_02/src/main/java/netty/util/HttpClientHelper.java</url>
           <line>119</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Week_03/src/main/java/ykf/BackendServer.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Week_03/src/main/java/ykf/BackendServer.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
