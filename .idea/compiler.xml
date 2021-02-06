@@ -6,16 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+
+        <module name="Week_03" />
+        <module name="Week_02" />
         <module name="Week_01" />
         <module name="Week_02" />
         <module name="Week_04" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="JAVA-01" target="1.5" />
-      <module name="Week_01" target="1.5" />
+    <bytecodeTargetLevel target="8">
+      <module name="JAVA-01" target="8" />
+      <module name="Week_01" target="8" />
       <module name="Week_02" target="8" />
       <module name="Week_04" target="8" />
+
+      <module name="Week_03" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
