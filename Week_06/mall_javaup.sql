@@ -122,7 +122,7 @@ begin
 DECLARE i int; 
 DECLARE order_id int;
 DECLARE time bigint;
-set i = 1;
+set i = 1; 
 set time = unix_timestamp(now());
 lp1:LOOP
 set i = i+1;

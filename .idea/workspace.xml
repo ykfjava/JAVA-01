@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10718a0d-c49c-4422-a487-493484b7d9db" name="Default Changelist" comment="week6" />
+    <list default="true" id="10718a0d-c49c-4422-a487-493484b7d9db" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Week_06/mall_javaup.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Week_06/mall_javaup.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,8 +169,16 @@
       <workItem from="1613822933639" duration="1942000" />
       <workItem from="1614253750099" duration="716000" />
       <workItem from="1614254479876" duration="1743000" />
-      <workItem from="1614445213649" duration="1339000" />
+      <workItem from="1614445213649" duration="1398000" />
     </task>
+    <task id="LOCAL-00001" summary="week6">
+      <created>1614446639957</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614446639957</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
